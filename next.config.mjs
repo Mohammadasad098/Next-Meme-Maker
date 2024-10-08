@@ -1,17 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    swcMinify: true,
-    images: {
+  images: {
       remotePatterns: [
-        {
-          protocol: "https",
-          hostname: "i.imgflip.com",
-          port: "",
-          search: "",
-        },
-      ],
-    },
-  };
-  
-  export default nextConfig;
+          {
+              protocol: 'https',
+              hostname: 'i.imgflip.com',
+          },
+      ]
+  }
+};
+
+export default nextConfig;
